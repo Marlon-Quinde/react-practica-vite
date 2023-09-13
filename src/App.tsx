@@ -1,5 +1,6 @@
 import "./App.css";
-import { Login } from "./components/Login";
+// import { Login } from "./components/Login";
+import { Usuarios } from "./components/Usuarios";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
       {/* <Funciones></Funciones> */}
       {/* <Contador></Contador> */}
       {/* <ContadorConHook></ContadorConHook> */}
-      <Login></Login>
+      {/* <Login></Login> */}
+      <Usuarios></Usuarios>
     </div>
   );
 }
