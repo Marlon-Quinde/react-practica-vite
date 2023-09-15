@@ -1,4 +1,5 @@
 import "./App.css";
+import { Formularios } from "./components/Formularios";
 // import { Login } from "./components/Login";
 import { Usuarios } from "./components/Usuarios";
 
@@ -13,7 +14,8 @@ function App() {
       {/* <Contador></Contador> */}
       {/* <ContadorConHook></ContadorConHook> */}
       {/* <Login></Login> */}
-      <Usuarios></Usuarios>
+      {/* <Usuarios></Usuarios> */}
+      <Formularios></Formularios>
     </div>
   );
 }
